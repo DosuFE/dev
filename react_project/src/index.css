@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+h1{
   font-family: "Lato", sans-serif;
 }
