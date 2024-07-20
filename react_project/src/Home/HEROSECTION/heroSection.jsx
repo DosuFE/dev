@@ -5,11 +5,11 @@ const HeroSection = () => {
     <>
       <section>
         <main className='font-lato'>
-          <h1 className='text-3xl font-medium text-center'>Trusted Real Estate Property for you</h1>
+          <h1 className='text-3xl font-medium text-center md:text-start'>Trusted Real Estate Property for you</h1>
         </main>
       </section>
     </>
   )
 }
 
-export default HeroSection
+export default HeroSection;
