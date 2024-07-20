@@ -18,8 +18,8 @@ import { BiMenuAltLeft } from "react-icons/bi";
             hover:duration-700 md:hidden'/>
           
 
-          <ul className='hidden md:flex items-center space-x-10'>
-            <li><a href="" className='font-lato font-medium hover:text-slate-800'>Home</a></li>
+          <ul className='hidden z-50 md:flex items-center md:space-x-10 lg:space-x-14'>
+            <li className='border-b-2 border-black'><a href="" className='font-lato font-medium hover:text-slate-800'>Home</a></li>
             <li><a href="" className='font-lato font-medium hover:text-slate-800'>About</a></li>
             <li><a href="" className='font-lato font-medium hover:text-slate-800'>Properties</a></li>
             <li><a href="" className='font-lato font-medium hover:text-slate-800'>Contact</a></li>
