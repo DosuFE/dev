@@ -18,21 +18,21 @@ const HeroSection = () => {
             </p>
             <Button firstbutton='Discover More' secondbutton='Learn More'/>
 
-            <div className='py-2 px-1 font-medium md:font-semibold flex items-center justify-center 
-             bg-slate-50 shadow-md shadow-slate-400 gap-2 md:gap-10 md:w-[600px]'>
+            <div className='py-2 mx-4 font-medium md:font-semibold flex items-center justify-center 
+             bg-slate-50 shadow-md shadow-slate-400 gap-5 sm:gap-10 lg:w-[600px] md:mx-0'>
               <div className='font-lato flex flex-col items-center'>
-                <p className='font-lato text-sm md:text-lg'>35+</p>
-                <p className='font-lato text-[10px] md:text-sm'>YEARS IN BUSINESS</p>
+                <p className='font-lato text-sm md:text-[12px] lg:text-lg'>35+</p>
+                <p className='font-lato text-[8px] md:text-[10px]'>YEARS IN BUSINESS</p>
               </div>
 
               <div className='font-lato flex flex-col items-center'>
-                <p className='font-lato text-sm md:text-lg'>200+M</p>
-                <p className='font-lato text-[10px] md:text-sm'>DEAL VOLUME IN PAST 12 MONTHS</p>
+                <p className='font-lato text-sm  md:text-[12px] lg:text-lg'>200+M</p>
+                <p className='font-lato text-[8px] md:text-[10px]'>DEAL VOLUME IN PAST 12 MONTHS</p>
               </div>
 
               <div className='font-lato flex flex-col items-center'>
-                <p className='font-lato text-sm md:text-lg'>$1B+</p>
-                <p className='font-lato text-[10px] md:text-sm'>IN TOTAL SALES</p>
+                <p className='font-lato text-sm  md:text-[12px] lg:text-lg'>$1B+</p>
+                <p className='font-lato text-[8px] md:text-[10px]'>IN TOTAL SALES</p>
               </div>
             </div>
           </div>  
