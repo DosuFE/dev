@@ -1,18 +1,15 @@
 import React from 'react'
+import WESTON from '../assets/images/WESTON.png'
 import { BiMenuAltLeft } from "react-icons/bi";
 
   const Header = () => {
-    const navLinks = document.querySelector(".nav-links");
-    function onToggleMenu(e) {
-      e.name = e.name === "menu" ? "close" : "menu";
-      navLinks.classNameList.toggle("top-[6%]");
-    }
+    
   return (
     <>
       <header className='px-5 py-3 md:px-12 lg:px-16 md:py-6'>
         <nav className='flex items-center justify-between'>
           
-            <h1 className='text-2xl font-extrabold italic py-1'>WESTON</h1>
+            <img src={WESTON} alt="Weston Logo" />
             <BiMenuAltLeft
             className='text-4xl font-bold cursor-pointer hover:scale-110 hover:transition-all 
             hover:duration-700 md:hidden'/>
@@ -30,4 +27,4 @@ import { BiMenuAltLeft } from "react-icons/bi";
   )
 }
 
-export default Header
+export default Header;
