@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-h1{
-  font-family: "Lato", sans-serif;
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.h-screen {
+  height: 30vw;
+}
+
+.w-full {
+  width: 100%;
 }

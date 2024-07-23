@@ -1,4 +1,5 @@
 import React from 'react'
+import SliderImage from './sliderimage';
 
 const Sec3 = () => {
   return (
@@ -15,6 +16,7 @@ const Sec3 = () => {
                 tempor dictum faucibus habitasse.
               </p>
             </div>
+            <SliderImage/>
         </main>
       </section>
     </>
