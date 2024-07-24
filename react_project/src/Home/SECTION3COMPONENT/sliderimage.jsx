@@ -28,15 +28,17 @@ const SliderImage = () => {
   };
 
   return (
-    <div className="relative bg-cover bg-center h-screen mt-5 mx-5" 
+    <div className="relative bg-cover bg-center h-screen mt-5" 
       style={{ backgroundImage: `url(${images[currentIndex]})` }}>
      
       <FaChevronLeft  onClick={goToPrevious}
-        className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full"
+        className="absolute left-0 top-1/2 transform -translate-y-1/2 text-white text-4xl
+        md:text-6xl"
         aria-label="Previous"/>
       
       <FaChevronRight onClick={goToNext}
-        className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full"
+        className="absolute right-0 top-1/2 transform -translate-y-1/2  text-white text-4xl
+        md:text-6xl"
         aria-label="Next"/>
     </div>
   );
