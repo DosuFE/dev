@@ -4,7 +4,7 @@ import Index from './Home'
 const App = () => {
   return (
     <div>
-      <Index/>
+      <Router/>
     </div>
   )
 }
