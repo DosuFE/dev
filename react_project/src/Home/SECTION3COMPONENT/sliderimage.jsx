@@ -15,7 +15,7 @@ const SliderImage = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 5000);
+    }, 7000);
     return () => clearInterval(intervalId);
   }, []);
 
@@ -28,7 +28,7 @@ const SliderImage = () => {
   };
 
   return (
-    <div className="relative bg-cover bg-center h-screen mx-20" 
+    <div className="relative bg-cover bg-center h-screen mt-5 mx-5" 
       style={{ backgroundImage: `url(${images[currentIndex]})` }}>
      
       <FaChevronLeft  onClick={goToPrevious}
